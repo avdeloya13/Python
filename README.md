@@ -1,2 +1,3 @@
 # Python
-Algoritmos para practicar Python.
+1.
+2.
