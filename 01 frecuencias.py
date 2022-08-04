@@ -3,7 +3,7 @@ Frecuencias.
 """
 
 def frecuencia_A(arreglo):
-#Cuenta cuántas veces aparece cada elemento del arreglo
+  '''Cuenta cuántas veces aparece cada elemento del arreglo'''
   arreglo.sort()
   long = len(arreglo)
   i = 1
@@ -15,8 +15,8 @@ def frecuencia_A(arreglo):
 
 
 def cuenta(arreglo, numero):
-#Auxiliar que cuenta el numero de apariciones de un 
-#elemento en un arreglo
+  '''Auxiliar que cuenta el numero de apariciones de un 
+elemento en un arreglo'''
   long = len(arreglo)
   i = 0
   total = 0
@@ -27,8 +27,8 @@ def cuenta(arreglo, numero):
 
 
 def frecuencia_B(arreglo):
-#Cuenta cuántas veces aparece cada elemento del arreglo
-#Usando diccionarios
+  '''Cuenta cuántas veces aparece cada elemento del arreglo
+  Usando diccionarios'''
   long = len(arreglo)
   i = 1
   d ={}
